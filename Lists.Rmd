@@ -145,9 +145,17 @@ Can I make these without the tags? Yes. Should I? No. These tags make your code 
 Let's make list in R. 
 
 - Make a list that contains the information on a single playing card. Suit, face, and value. 
+
 - Make a second list where each element contains all the options for suit, face, and value, respectively. 
+```{R}
+single_card <- list("suit", "face", "value")
 
+options <- list(
+  suit <- c("diamond", "spade", "clover", "heart"),
+  face <- c("ace", 1:10, "jack", "queen", "king")
+)
 
+```
 # Accessing Elements
 
 Let's look at the output of printing my list. 
